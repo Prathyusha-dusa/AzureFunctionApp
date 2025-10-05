@@ -32,29 +32,25 @@ Before running, make sure to set API keys in your Azure Function App Settings or
 
 Example (local development):
 
-OPENWEATHER_API_KEY = "<your_openweather_api_key>"
-ALPHAVANTAGE_API_KEY = "<your_alphavantage_api_key>"
+- OPENWEATHER_API_KEY = "<your_openweather_api_key>"
+- ALPHAVANTAGE_API_KEY = "<your_alphavantage_api_key>"
 
 
 ## 🧪How to Run Locally
-1. Clone/download this project using below commands
-   git clone
-   cd AzureAPIFunction
-2. Start the function locally using below command
-   func start
-3. Test it in a browser or Postman:
-   weather: http://localhost:7071/api/AzureAPIFunction/weather?cityName=London
-   crypto: http://localhost:7071/api/AzureAPIFunction/crypto?cryptoName=bitcoin
-   stock: http://localhost:7071/api/AzureAPIFunction/stock?stockName=NVDA
+1. Clone/download this project using below commands  
+   - git clone https://github.com/Prathyusha-dusa/AzureFunctionApp.git
+3. Start the function locally using below command
+   - func start
+4. Test it in a browser or Postman:
+   - weather: http://localhost:7071/api/AzureAPIFunction/weather?cityName=London
+   - crypto: http://localhost:7071/api/AzureAPIFunction/crypto?cryptoName=bitcoin
+   - stock: http://localhost:7071/api/AzureAPIFunction/stock?stockName=NVDA
 
 
 ## 🔒 Error Handling
 
-| Error                       | Cause                                 | HTTP Code |
-|-----------------------------|---------------------------------------| --------- |
-| Invalid or Missing 'apiType'|
-| parameter                   | Path parameter not supplied           | 400       |
-
-| Missing API key             | Required environment variable not set | 500       |
-
-| API failure                 | External API error                    | 503       |
+| Error                                           | Cause                                 | HTTP Code |
+|-------------------------------------------------|---------------------------------------| --------- |
+| Invalid or Missing 'apiType' parameter          | Path parameter not supplied           | 400       |
+| Missing API key                                 | Required environment variable not set | 500       |
+| API failure                                     | External API error                    | 503       |
