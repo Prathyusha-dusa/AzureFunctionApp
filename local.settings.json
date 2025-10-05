@@ -1,0 +1,8 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "powershell",
+    "OPENWEATHER_API_KEY": "db3caf4ec7491acafe23a82bd11653ce",
+    "ALPHAVANTAGE_API_KEY": "JGUNJ2E7U8SPJLPM"
+  }
+}
