@@ -17,9 +17,9 @@
 - [Install Azure Functions Core Tools](https://learn.microsoft.com/azure/azure-functions/functions-run-local)
 - [Install PowerShell 7+](https://learn.microsoft.com/powershell/)
 - CoinGecko API_KEY Not Required
-  Create Account and sign-in below website to get free API keys
-- [Free OpenWeather API_KEY](https://openweathermap.org/appid#apikey)
-- [Free AlphaVantage API_KEY](https://www.alphavantage.co/support/#api-key)
+- Create Account and sign-in below website to get free API keys
+   - [Free OpenWeather API_KEY](https://openweathermap.org/appid#apikey)
+   - [Free AlphaVantage API_KEY](https://www.alphavantage.co/support/#api-key)
 
 ## 🔑 Set Environment Variables
 
